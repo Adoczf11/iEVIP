@@ -1,0 +1,405 @@
+﻿dose,len,supp
+0,0.496,whole blood+Triton
+1,0.493,whole blood+Triton
+2,0.489,whole blood+Triton
+3,0.487,whole blood+Triton
+4,0.485,whole blood+Triton
+5,0.483,whole blood+Triton
+6,0.479,whole blood+Triton
+7,0.48,whole blood+Triton
+8,0.478,whole blood+Triton
+9,0.48,whole blood+Triton
+10,0.48,whole blood+Triton
+11,0.482,whole blood+Triton
+12,0.487,whole blood+Triton
+13,0.495,whole blood+Triton
+14,0.506,whole blood+Triton
+15,0.517,whole blood+Triton
+16,0.526,whole blood+Triton
+17,0.542,whole blood+Triton
+18,0.561,whole blood+Triton
+19,0.586,whole blood+Triton
+20,0.607,whole blood+Triton
+21,0.626,whole blood+Triton
+22,0.645,whole blood+Triton
+23,0.677,whole blood+Triton
+24,0.721,whole blood+Triton
+25,0.757,whole blood+Triton
+26,0.784,whole blood+Triton
+27,0.818,whole blood+Triton
+28,0.861,whole blood+Triton
+29,0.909,whole blood+Triton
+30,0.955,whole blood+Triton
+31,0.996,whole blood+Triton
+32,1.036,whole blood+Triton
+33,1.076,whole blood+Triton
+34,1.115,whole blood+Triton
+35,1.16,whole blood+Triton
+36,1.173,whole blood+Triton
+37,1.191,whole blood+Triton
+38,1.215,whole blood+Triton
+39,1.229,whole blood+Triton
+40,1.227,whole blood+Triton
+41,1.225,whole blood+Triton
+42,1.219,whole blood+Triton
+43,1.201,whole blood+Triton
+44,1.173,whole blood+Triton
+45,1.139,whole blood+Triton
+46,1.117,whole blood+Triton
+47,1.096,whole blood+Triton
+48,1.064,whole blood+Triton
+49,1.022,whole blood+Triton
+50,0.972,whole blood+Triton
+51,0.938,whole blood+Triton
+52,0.913,whole blood+Triton
+53,0.881,whole blood+Triton
+54,0.845,whole blood+Triton
+55,0.811,whole blood+Triton
+56,0.791,whole blood+Triton
+57,0.779,whole blood+Triton
+58,0.765,whole blood+Triton
+59,0.754,whole blood+Triton
+60,0.759,whole blood+Triton
+61,0.764,whole blood+Triton
+62,0.774,whole blood+Triton
+63,0.799,whole blood+Triton
+64,0.843,whole blood+Triton
+65,0.88,whole blood+Triton
+66,0.903,whole blood+Triton
+67,0.93,whole blood+Triton
+68,0.983,whole blood+Triton
+69,1.055,whole blood+Triton
+70,1.112,whole blood+Triton
+71,1.145,whole blood+Triton
+72,1.178,whole blood+Triton
+73,1.225,whole blood+Triton
+74,1.272,whole blood+Triton
+75,1.293,whole blood+Triton
+76,1.297,whole blood+Triton
+77,1.289,whole blood+Triton
+78,1.248,whole blood+Triton
+79,1.173,whole blood+Triton
+80,1.075,whole blood+Triton
+81,0.987,whole blood+Triton
+82,0.894,whole blood+Triton
+83,0.814,whole blood+Triton
+84,0.683,whole blood+Triton
+85,0.561,whole blood+Triton
+86,0.488,whole blood+Triton
+87,0.448,whole blood+Triton
+88,0.406,whole blood+Triton
+89,0.354,whole blood+Triton
+90,0.305,whole blood+Triton
+91,0.278,whole blood+Triton
+92,0.258,whole blood+Triton
+93,0.243,whole blood+Triton
+94,0.225,whole blood+Triton
+95,0.206,whole blood+Triton
+96,0.191,whole blood+Triton
+97,0.182,whole blood+Triton
+98,0.174,whole blood+Triton
+99,0.167,whole blood+Triton
+100,0.158,whole blood+Triton
+0,0.229,DE
+1,0.228,DE
+2,0.228,DE
+3,0.227,DE
+4,0.226,DE
+5,0.226,DE
+6,0.224,DE
+7,0.225,DE
+8,0.225,DE
+9,0.226,DE
+10,0.225,DE
+11,0.225,DE
+12,0.227,DE
+13,0.229,DE
+14,0.232,DE
+15,0.235,DE
+16,0.238,DE
+17,0.24,DE
+18,0.246,DE
+19,0.253,DE
+20,0.259,DE
+21,0.264,DE
+22,0.268,DE
+23,0.277,DE
+24,0.287,DE
+25,0.298,DE
+26,0.305,DE
+27,0.313,DE
+28,0.325,DE
+29,0.337,DE
+30,0.35,DE
+31,0.36,DE
+32,0.37,DE
+33,0.381,DE
+34,0.391,DE
+35,0.403,DE
+36,0.406,DE
+37,0.41,DE
+38,0.416,DE
+39,0.42,DE
+40,0.419,DE
+41,0.418,DE
+42,0.417,DE
+43,0.411,DE
+44,0.403,DE
+45,0.394,DE
+46,0.388,DE
+47,0.383,DE
+48,0.375,DE
+49,0.363,DE
+50,0.35,DE
+51,0.34,DE
+52,0.333,DE
+53,0.326,DE
+54,0.317,DE
+55,0.307,DE
+56,0.301,DE
+57,0.299,DE
+58,0.294,DE
+59,0.291,DE
+60,0.293,DE
+61,0.295,DE
+62,0.296,DE
+63,0.304,DE
+64,0.314,DE
+65,0.324,DE
+66,0.33,DE
+67,0.337,DE
+68,0.35,DE
+69,0.369,DE
+70,0.384,DE
+71,0.394,DE
+72,0.401,DE
+73,0.414,DE
+74,0.424,DE
+75,0.43,DE
+76,0.432,DE
+77,0.428,DE
+78,0.419,DE
+79,0.397,DE
+80,0.37,DE
+81,0.349,DE
+82,0.324,DE
+83,0.303,DE
+84,0.268,DE
+85,0.233,DE
+86,0.216,DE
+87,0.205,DE
+88,0.194,DE
+89,0.179,DE
+90,0.168,DE
+91,0.159,DE
+92,0.155,DE
+93,0.149,DE
+94,0.146,DE
+95,0.14,DE
+96,0.136,DE
+97,0.133,DE
+98,0.132,DE
+99,0.129,DE
+100,0.128,DE
+0,0.144,VF
+1,0.145,VF
+2,0.144,VF
+3,0.145,VF
+4,0.144,VF
+5,0.144,VF
+6,0.144,VF
+7,0.145,VF
+8,0.145,VF
+9,0.146,VF
+10,0.146,VF
+11,0.146,VF
+12,0.146,VF
+13,0.147,VF
+14,0.147,VF
+15,0.148,VF
+16,0.148,VF
+17,0.15,VF
+18,0.15,VF
+19,0.15,VF
+20,0.152,VF
+21,0.153,VF
+22,0.153,VF
+23,0.154,VF
+24,0.154,VF
+25,0.155,VF
+26,0.157,VF
+27,0.156,VF
+28,0.157,VF
+29,0.158,VF
+30,0.159,VF
+31,0.159,VF
+32,0.159,VF
+33,0.161,VF
+34,0.161,VF
+35,0.161,VF
+36,0.161,VF
+37,0.161,VF
+38,0.162,VF
+39,0.161,VF
+40,0.16,VF
+41,0.16,VF
+42,0.158,VF
+43,0.158,VF
+44,0.158,VF
+45,0.156,VF
+46,0.155,VF
+47,0.155,VF
+48,0.155,VF
+49,0.153,VF
+50,0.152,VF
+51,0.151,VF
+52,0.149,VF
+53,0.15,VF
+54,0.148,VF
+55,0.146,VF
+56,0.146,VF
+57,0.146,VF
+58,0.145,VF
+59,0.145,VF
+60,0.145,VF
+61,0.145,VF
+62,0.145,VF
+63,0.146,VF
+64,0.145,VF
+65,0.145,VF
+66,0.146,VF
+67,0.146,VF
+68,0.145,VF
+69,0.145,VF
+70,0.146,VF
+71,0.147,VF
+72,0.148,VF
+73,0.147,VF
+74,0.146,VF
+75,0.146,VF
+76,0.147,VF
+77,0.147,VF
+78,0.144,VF
+79,0.142,VF
+80,0.14,VF
+81,0.139,VF
+82,0.136,VF
+83,0.137,VF
+84,0.134,VF
+85,0.128,VF
+86,0.128,VF
+87,0.126,VF
+88,0.127,VF
+89,0.123,VF
+90,0.121,VF
+91,0.121,VF
+92,0.12,VF
+93,0.12,VF
+94,0.12,VF
+95,0.119,VF
+96,0.119,VF
+97,0.118,VF
+98,0.118,VF
+99,0.116,VF
+100,0.117,VF
+0,0.094,PBS
+1,0.095,PBS
+2,0.093,PBS
+3,0.094,PBS
+4,0.093,PBS
+5,0.094,PBS
+6,0.092,PBS
+7,0.094,PBS
+8,0.093,PBS
+9,0.094,PBS
+10,0.094,PBS
+11,0.093,PBS
+12,0.093,PBS
+13,0.093,PBS
+14,0.093,PBS
+15,0.094,PBS
+16,0.093,PBS
+17,0.093,PBS
+18,0.093,PBS
+19,0.093,PBS
+20,0.093,PBS
+21,0.095,PBS
+22,0.093,PBS
+23,0.094,PBS
+24,0.093,PBS
+25,0.093,PBS
+26,0.094,PBS
+27,0.094,PBS
+28,0.093,PBS
+29,0.094,PBS
+30,0.094,PBS
+31,0.094,PBS
+32,0.094,PBS
+33,0.095,PBS
+34,0.094,PBS
+35,0.094,PBS
+36,0.095,PBS
+37,0.095,PBS
+38,0.095,PBS
+39,0.095,PBS
+40,0.094,PBS
+41,0.094,PBS
+42,0.095,PBS
+43,0.095,PBS
+44,0.095,PBS
+45,0.095,PBS
+46,0.095,PBS
+47,0.095,PBS
+48,0.095,PBS
+49,0.095,PBS
+50,0.094,PBS
+51,0.095,PBS
+52,0.094,PBS
+53,0.094,PBS
+54,0.095,PBS
+55,0.094,PBS
+56,0.093,PBS
+57,0.094,PBS
+58,0.093,PBS
+59,0.094,PBS
+60,0.094,PBS
+61,0.092,PBS
+62,0.093,PBS
+63,0.095,PBS
+64,0.093,PBS
+65,0.092,PBS
+66,0.093,PBS
+67,0.093,PBS
+68,0.093,PBS
+69,0.092,PBS
+70,0.092,PBS
+71,0.093,PBS
+72,0.093,PBS
+73,0.093,PBS
+74,0.091,PBS
+75,0.093,PBS
+76,0.092,PBS
+77,0.093,PBS
+78,0.091,PBS
+79,0.092,PBS
+80,0.092,PBS
+81,0.093,PBS
+82,0.095,PBS
+83,0.093,PBS
+84,0.094,PBS
+85,0.092,PBS
+86,0.092,PBS
+87,0.093,PBS
+88,0.093,PBS
+89,0.092,PBS
+90,0.093,PBS
+91,0.093,PBS
+92,0.093,PBS
+93,0.092,PBS
+94,0.093,PBS
+95,0.093,PBS
+96,0.092,PBS
+97,0.093,PBS
+98,0.093,PBS
+99,0.092,PBS
+100,0.092,PBS
