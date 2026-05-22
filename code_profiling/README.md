@@ -1,7 +1,7 @@
 # R code for iEVIP: A Dual-inspired Intelligent Platform for Smart Response Extracellular Vesicle Isolation and Single-Vesicle Profiling
-This GitHub repository contains R scripts used for data visualization, multivariate analysis, and classification in this study, including Heatmap,PCA, PLS-DA, LDA, and  RF + LDA + NN (k = 5).
+This GitHub repository contains R scripts used for data visualization, multivariate analysis, and classification in this study, including Heatmap,PCA, PLS-DA, LDA_visualization, t-SNE， ComBat_batch_correction，and  RF+NNET+LDA+Confusion_matrix+ROC+PR.
 
-The file 20240614.csv contains data derived from cell-based experiments. Each row corresponds to an independent cell sample, and columns represent measured features used for subsequent multivariate analyses, including heatmap visualization, PCA, PLS-DA, LDA, and combined classification models.
+The file cell_EV.csv contains data derived from cell-based experiments. Each row corresponds to an independent cell sample, and columns represent measured features used for subsequent multivariate analyses, including heatmap visualization, PCA, PLS-DA, LDA, and combined classification models.
 ## Software requirements
 All analyses were performed using **R version 4.3.0**.
 The following software is required:
@@ -32,7 +32,7 @@ This script performs **partial least squares discriminant analysis (PLS-DA)** as
 ### **LDA_visualization.R**
 This script applies **linear discriminant analysis (LDA)** as a linear and interpretable classification method. LDA serves as a baseline classifier for comparison with nonlinear models.
 
-### **tSNE.R**
+### **t-SNE.R**
 This script performs t-distributed stochastic neighbor embedding (t-SNE) as a nonlinear dimensionality reduction approach. It is used to visualize sample clustering patterns and group separation in a low-dimensional space.
 
 ### **ComBat_batch_correction.R**
