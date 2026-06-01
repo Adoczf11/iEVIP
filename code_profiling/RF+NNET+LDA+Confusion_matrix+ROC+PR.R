@@ -15,7 +15,7 @@ set.seed(123)
 # ===============================
 
 df <- read.csv(
-  file = "Batch_mix_EV.csv",
+  file = "data/Fig9G.csv",
   header = TRUE,
   sep = ",",
   stringsAsFactors = FALSE

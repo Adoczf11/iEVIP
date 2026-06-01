@@ -1,3 +1,4 @@
+rm(list = ls())
 library(readr)
 library(dplyr)
 library(ggplot2)
@@ -7,7 +8,7 @@ library(ggrepel)
 # 1. Load CSV data
 # -------------------------
 
-data <- read_csv("features.csv")
+data <- read_csv("data/features.csv")
 
 batch <- data[[1]]
 group <- data[[2]]

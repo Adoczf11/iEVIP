@@ -5,15 +5,10 @@ library(ggplot2)
 library(RColorBrewer)
 
 # -------------------------
-# 1. Set working directory
-# -------------------------
-setwd("t_SNE")
-
-# -------------------------
 # 2. Read input data
 # -------------------------
 data_raw <- read.csv(
-  file = "cell_EV.csv",
+  file = "data/cell_EV.csv",
   header = TRUE,
   sep = ",",
   stringsAsFactors = FALSE
@@ -39,14 +34,14 @@ head(tsne_out$Y)
 str(tsne_out$Y)
 
 # Check group information
-str(data_raw$cell_type)
+str(data_raw$group)
 
 # -------------------------
 # 4. Prepare plotting data
 # -------------------------
 plot_data <- data.frame(
   tsne_out$Y,
-  data_raw$cell_type
+  data_raw$group
 )
 
 colnames(plot_data) <- c(

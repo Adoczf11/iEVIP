@@ -4,7 +4,7 @@ library(ggplot2)
 library(reshape2)
 
 data <- read.csv(
-  file = "cell_EV.csv",
+  file = "data/cell_EV_heatmap.csv",
   header = TRUE,
   row.names = 1,
   sep = ",",

@@ -9,7 +9,7 @@ library(dplyr)
 
 # Read input data
 data <- read.csv(
-  file = "Batch1_EV.csv",
+  file = "data/Batch1_EV.csv",
   stringsAsFactors = FALSE
 )
 

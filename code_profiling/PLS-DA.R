@@ -4,10 +4,8 @@ rm(list = ls())  # Clear the global environment
 library(mixOmics)  # Package for partial least squares discriminant analysis
 library(ggplot2)   # Package for plotting
 
-setwd("PLS_DA")  # Set working directory
-
 data <- read.csv(
-  file = "cell_EV.csv",
+  file = "data/cell_EV.csv",
   header = TRUE,
   sep = ",",
   stringsAsFactors = FALSE

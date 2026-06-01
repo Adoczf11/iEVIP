@@ -9,26 +9,20 @@ library(Cairo)
 
 # -------------------------
 # 1. Read input data
-# -------------------------
-setwd("PCA")
-
+# ------------------------
 data <- read.csv(
-  file = "cell_EV.csv",
+  file = "data/cell_EV.csv",
   sep = ",",
   header = TRUE,
   check.names = FALSE
 )
-
-# Display the first few rows of the data
-head(data)
 
 # -------------------------
 # 2. Perform principal component analysis
 # -------------------------
 # Exclude the 11th column from PCA
 pca.res <- PCA(data[, -11], graph = FALSE, scale.unit = TRUE)
-
-print(pca.res)
+pca.res
 
 # Eigenvalues, percentage of variance, and cumulative variance
 # get_eigenvalue(pca.res)
@@ -87,7 +81,7 @@ p <- fviz_pca_ind(
   geom.ind = "point",                  # Show points only
   pointsize = 3,
   pointshape = 19,
-  col.ind = data$dign,                 # Color points by group
+  col.ind = data$group,                 # Color points by group
   palette = c("#1597A5", "#FFC24B", "#FEB3AE"),
   addEllipses = TRUE,                  # Add confidence ellipses
   legend.title = "",
@@ -109,7 +103,6 @@ p <- fviz_pca_ind(
     legend.background = element_blank(),
     legend.position = c(0.75, 0.15)
   )
-
 print(p)
 
 # Close the graphics device

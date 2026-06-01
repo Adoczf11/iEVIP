@@ -9,7 +9,7 @@ library(ggplot2)
 # -------------------------
 
 data <- read.csv(
-  file = "cell_EV.csv",
+  file = "data/cell_EV.csv",
   sep = ",",
   header = TRUE,
   check.names = FALSE
@@ -22,10 +22,6 @@ data <- read.csv(
 nx <- 63
 feature_data <- data[1:nx, 1:10]
 group_label <- data[1:nx, 11]
-
-head(feature_data)
-head(group_label)
-class(group_label)
 
 # Convert class labels to factor
 group_label <- as.factor(group_label)
