@@ -102,7 +102,7 @@ print(p1)
 
 # Save the figure
 ggsave(
-  filename = "PLSDA_EV_cell.tiff",
+  filename = "/results/PLSDA_EV_cell.tiff",
   plot = p1,
   width = 5,
   height = 4,

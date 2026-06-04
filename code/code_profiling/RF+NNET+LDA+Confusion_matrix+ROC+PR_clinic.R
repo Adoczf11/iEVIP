@@ -577,13 +577,13 @@ print(metrics_class_all)
 print(auc_auprc_all)
 
 write.csv(summary_all, "overall_metrics_RF_LDA_NNET.csv", row.names = FALSE)
-write.csv(metrics_class_all, "class_metrics_RF_LDA_NNET.csv", row.names = FALSE)
-write.csv(as.data.frame(rf_res$conf_mat$table), "confusion_matrix_RF.csv", row.names = FALSE)
-write.csv(as.data.frame(lda_res$conf_mat$table), "confusion_matrix_LDA.csv", row.names = FALSE)
-write.csv(as.data.frame(nnet_res$conf_mat$table), "confusion_matrix_NNET.csv", row.names = FALSE)
-write.csv(roc_metrics_all, "ROC_AUC_values_RF_LDA_NNET.csv", row.names = FALSE)
-write.csv(pr_metrics_all, "PR_AUPRC_values_RF_LDA_NNET.csv", row.names = FALSE)
-write.csv(auc_auprc_all, "ROC_AUC_PR_AUPRC_summary_RF_LDA_NNET.csv", row.names = FALSE)
+write.csv(metrics_class_all, file = "/results/class_metrics_RF_LDA_NNET.csv", row.names = FALSE)
+write.csv(as.data.frame(rf_res$conf_mat$table), file = "/results/confusion_matrix_RF.csv", row.names = FALSE)
+write.csv(as.data.frame(lda_res$conf_mat$table), file = "/results/confusion_matrix_LDA.csv", row.names = FALSE)
+write.csv(as.data.frame(nnet_res$conf_mat$table), file = "/results/confusion_matrix_NNET.csv", row.names = FALSE)
+write.csv(roc_metrics_all, file = "/results/ROC_AUC_values_RF_LDA_NNET.csv", row.names = FALSE)
+write.csv(pr_metrics_all, file = "/results/PR_AUPRC_values_RF_LDA_NNET.csv", row.names = FALSE)
+write.csv(auc_auprc_all, file = "/results/ROC_AUC_PR_AUPRC_summary_RF_LDA_NNET.csv", row.names = FALSE)
 
 # ===============================
 # Prepare confusion matrix data
@@ -631,7 +631,7 @@ cm_all_df <- rbind(
 
 write.csv(
   cm_all_df,
-  "confusion_matrix_percentage_plot_data_RF_LDA_NNET.csv",
+  file = "/results/confusion_matrix_percentage_plot_data_RF_LDA_NNET.csv",
   row.names = FALSE
 )
 
@@ -684,7 +684,7 @@ plot_cm_without_text <- function(cm_df, model_name, display_names) {
   print(p)
   
   ggsave(
-    filename = paste0("Confusion_Matrix_", model_name, "_Percentage_No_Text.tiff"),
+    filename = paste0("/results/Confusion_Matrix_", model_name, "_Percentage_No_Text.tiff"),
     plot = p,
     width = 4.5,
     height = 4,
@@ -814,7 +814,7 @@ p_roc <- ggplot(
 print(p_roc)
 
 ggsave(
-  filename = "ROC_Class_Micro_Macro_RF_LDA_NNET.tiff",
+  filename = "/results/ROC_Class_Micro_Macro_RF_LDA_NNET.tiff",
   plot = p_roc,
   width = 4.5,
   height = 4,
@@ -877,7 +877,7 @@ p_pr <- ggplot(
 print(p_pr)
 
 ggsave(
-  filename = "PR_Class_Micro_Macro_RF_LDA_NNET.tiff",
+  filename = "/results/PR_Class_Micro_Macro_RF_LDA_NNET.tiff",
   plot = p_pr,
   width = 4.5,
   height = 4,

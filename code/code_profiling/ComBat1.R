@@ -104,7 +104,7 @@ p1 <- ggplot(df_raw, aes(x = PC1, y = PC2, color = Batch)) +
 print(p1)
 
 ggsave(
-  filename = "PCA_before_batch_correction.tiff",
+  filename = "/results/PCA_before_batch_correction.tiff",
   plot = p1,
   width = 5,
   height = 4,
@@ -142,7 +142,7 @@ p2 <- ggplot(df_corrected, aes(x = PC1, y = PC2, color = Batch)) +
 print(p2)
 
 ggsave(
-  filename = "PCA_after_batch_correction.tiff",
+  filename = "/results/PCA_after_batch_correction.tiff",
   plot = p2,
   width = 5,
   height = 4,
@@ -161,4 +161,4 @@ df_out <- data.frame(
   X_corrected
 )
 
-write_csv(df_out, "Fig9G.csv")
+write_csv(df_out, "/results/Fig9G.csv")

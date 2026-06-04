@@ -70,7 +70,7 @@ p <- ggplot(data_long, aes(x = Col, y = Row, fill = Value)) +
     text = element_text(size = 8, face = "plain", color = "black"),
     axis.text.x = element_text(angle = 45, hjust = 1),
     axis.title = element_text(size = 0, face = "plain", color = "black"),
-    axis.text = element_text(size = 2, face = "plain", color = "black"),
+    axis.text = element_text(size = 8, face = "plain", color = "black"),
     legend.title = element_text(size = 0, face = "plain", color = "black"),
     legend.text = element_text(size = 8, face = "plain", color = "black"),
     legend.background = element_blank(),
@@ -83,7 +83,7 @@ print(p)
 # 5. Save heatmap
 # -------------------------
 ggsave(
-  filename = "cell_heatmap.tiff",
+  filename = "/results/cell_heatmap.tiff",
   plot = p,
   width = 9,
   height = 4,

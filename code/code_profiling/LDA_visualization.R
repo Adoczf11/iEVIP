@@ -117,7 +117,7 @@ print(p)
 # -------------------------
 
 ggsave(
-  filename = "LDA_cell_visualization.tiff",
+  filename = "/results/LDA_cell_visualization.tiff",
   plot = p,
   width = 5,
   height = 4,

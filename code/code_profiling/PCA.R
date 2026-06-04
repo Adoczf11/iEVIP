@@ -68,7 +68,7 @@ pca.res
 # 5. Save PCA plot
 # -------------------------
 tiff(
-  filename = "cell_PCA.tiff",
+  filename = "/results/cell_PCA.tiff",
   width = 5,
   height = 4,
   units = "in",

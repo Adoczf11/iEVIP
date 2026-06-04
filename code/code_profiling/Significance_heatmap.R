@@ -59,7 +59,7 @@ result_df <- result_df %>%
 # Save significance analysis results
 write.csv(
   result_df,
-  file = "20260420_clinical_sample_significance_results.csv",
+  file = "/results/clinical_sample_significance_results.csv",
   row.names = FALSE
 )
 
@@ -156,7 +156,7 @@ print(p)
 
 # Save heatmap
 ggsave(
-  filename = "clinical_sample_significance_heatmap.tiff",
+  filename = "/results/clinical_sample_significance_heatmap.tiff",
   plot = p,
   width = 4,
   height = 8,
