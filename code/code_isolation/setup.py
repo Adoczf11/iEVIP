@@ -1,57 +1,56 @@
-from setuptools import setup, find_packages
+from pathlib import Path
 
-with open("README1.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
+from setuptools import find_packages, setup
 
-with open("requirements.txt", "r", encoding="utf-8") as fh:
-    requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
+ROOT = Path(__file__).parent
+
+
+def read_requirements(filename):
+    return [
+        line.strip()
+        for line in (ROOT / filename).read_text(encoding="utf-8").splitlines()
+        if line.strip() and not line.startswith("#")
+    ]
+
+
+source_packages = find_packages(where="src")
+packages = ["adaptive_piston_algorithm"] + [
+    f"adaptive_piston_algorithm.{package}" for package in source_packages
+]
 
 setup(
     name="adaptive-piston-algorithm",
     version="1.0.0",
-    author="Adaptive Piston Research Team",
-    author_email="research@pistonalgorithm.example.com",
+    author="iEVIP authors",
     description="Intelligent algorithm for detecting clogging events in fluid delivery systems",
-    long_description=long_description,
+    long_description=(ROOT / "README.md").read_text(encoding="utf-8"),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/adaptive-piston-algorithm",
-    packages=find_packages(where="src"),
-    package_dir={"": "src"},
+    url="https://github.com/Adoczf11/iEVIP",
+    license="GPL-3.0-only",
+    packages=packages,
+    package_dir={"adaptive_piston_algorithm": "src"},
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Science/Research",
         "Topic :: Scientific/Engineering",
         "Topic :: Scientific/Engineering :: Medical Science Apps",
-        "License :: Other/Proprietary License",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.6",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
+        "Programming Language :: Python :: 3.14",
         "Operating System :: OS Independent",
     ],
-    python_requires=">=3.6",
-    install_requires=requirements,
+    python_requires=">=3.9",
+    install_requires=read_requirements("requirements.txt"),
     extras_require={
-        "dev": [
-            "pytest>=7.0.0",
-            "black>=22.0.0",
-            "flake8>=5.0.0",
-            "mypy>=0.980",
-        ],
-        "visualization": [
-            "matplotlib>=3.5.0",
-        ],
-        "full": [
-            "matplotlib>=3.5.0",
-            "numpy>=1.21.0",
-        ],
+        "dev": read_requirements("requirements-dev.txt"),
     },
     entry_points={
         "console_scripts": [
-            "piston-analyzer=cli.main:main",
+            "piston-analyzer=adaptive_piston_algorithm.cli.main:main",
         ],
     },
     include_package_data=True,
